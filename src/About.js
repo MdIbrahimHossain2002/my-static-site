@@ -6,7 +6,12 @@ function About() {
     <div className="about-container">
       <header className="about-header">
         <h1>About Us</h1>
-        <p>Discover who we are and what we do.</p>
+        <p>
+    Project by: <strong>Md. Ibrahim Hossain</strong> <br />
+    Bachelor of Science in Computer Science and Engineering, <br />
+    City University, Bangladesh. <br />
+    Email: mibrahimh02@gmail.com
+  </p>
       </header>
       <section className="about-content">
         <h2>Our Mission</h2>

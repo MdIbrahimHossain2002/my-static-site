@@ -4,19 +4,36 @@ import './Home.css';
 function Home() {
   return (
     <div className="home-container">
-      <header className="home-header">
-        <h1>Welcome to My Static Website</h1>
-        <p>Your one-stop destination for quality services and solutions.</p>
-      </header>
-      <section className="features">
-        <h2>Why Choose Us?</h2>
-        <ul>
-          <li>High-quality services tailored to your needs.</li>
-          <li>Dedicated support and customer satisfaction.</li>
-          <li>Affordable solutions with no compromise on quality.</li>
-        </ul>
-      </section>
-     
+      <div className="hero-section">
+        <h1>Welcome to My Project</h1>
+        <p>
+          This web application is created as part of my <strong>Web Database Course Project</strong>. 
+          It showcases my skills in React, routing, and modern web development practices.
+        </p>
+        <a href="#about" className="hero-button">Learn More</a>
+      </div>
+      
+      <div id="about" className="about-section">
+        <h2>About This Project</h2>
+        <p>
+          This project demonstrates the integration of modern web technologies such as:
+          <ul>
+            <li>React.js for frontend development</li>
+            <li>React Router for navigation</li>
+            <li>Custom CSS for styling</li>
+            <li>Responsive design for all devices</li>
+          </ul>
+        </p>
+        <p>
+          It’s designed to provide a dynamic and user-friendly experience, showcasing how multiple pages 
+          and components work seamlessly together.
+        </p>
+      </div>
+      
+      <div className="cta-section">
+        <h2>Get Started</h2>
+        <p>Click on the navigation links above to explore the website!</p>
+      </div>
     </div>
   );
 }
